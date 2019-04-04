@@ -1,0 +1,203 @@
+
+//* Table FOR JAVA QUIZ *//
+CREATE table "JAVAQUIZ" (
+    "QNO"        NUMBER(20,0),
+    "QUES"       CLOB,
+    "OPTIONA"    CLOB,
+    "OPTIONB"    CLOB,
+    "OPTIONC"    CLOB,
+    "OPTIOND"    CLOB,
+    "ANS"        CLOB,
+    constraint  "QUIZ_PK" primary key ("QNO") ENABLE
+)
+
+//* INSERT Quiz  for java *//
+
+//1
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(1,'What is correct syntax for main method of a java class?','public static int main(String[] args)','public int main(String[] args)','public static void main(String[] args)','None of the above.','public static void main(String[] args)')
+//2
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(2,'What is the size of float variable?','8 bit','16 bit','32 bit','64 bit','32 bit')
+//3
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(3,'What is the default value of double variable?','0.0d','0.0f','0','Not defined','0.0d')
+//4
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(4,'Which of the following is true about protected access modifier?','Variables, methods and constructors which are declared protected can be accessed by any class.','Variables, methods and constructors which are declared protected can be accessed by any class lying in same package.','Variables, methods and constructors which are declared protected in the superclass can be accessed only by its child class.','None of the above.','Variables, methods and constructors which are declared protected in the superclass can be accessed only by its child class.')
+//5
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(5,'What is Abstraction?','Abstraction is a technique to define different methods of same type.','Abstraction is the ability of an object to take on many forms.','It refers to the ability to make a class abstract in OOP.','None of the above.','It refers to the ability to make a class abstract in OOP.')
+//6
+
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(6,'What is Set Interface?','Set is a collection of element which contains elements along with their key.','Set is a collection of element which contains hashcode of elements.','Set is a collection of element which cannot contain duplicate elements.','Set is a collection of element which can contain duplicate elements.','Set is a collection of element which cannot contain duplicate elements.')
+//7
+
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(7,'Method Overriding is an example of?','Static Binding.','Dynamic Binding.','Both of the above.','None of the above.','Dynamic Binding.')
+//8
+
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(8,'What is synchronization?','Synchronization is the capability to control the access of multiple threads to shared resources.',' Synchronization is the process of writing the state of an object to another object.','Synchronization is the process of writing the state of an object to byte stream.','None of the above.','Synchronization is the capability to control the access of multiple threads to shared resources.')
+//9
+
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(9,'A top level class be private or protected?','true','false, It can have no modifier','false, It can be public','Both B & C','Both B & C')
+//10
+
+INSERT INTO JAVAQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)VALUES(10,'This is the parent of Error and Exception classes.','Throwable','Catchable','MainError','MainException','Throwable')
+
+
+//* TABLE FOR ANDROID QUIZ *//
+
+CREATE table "ANDROIDQUIZ" (
+    "QNO"        NUMBER(20,0),
+    "QUES"       CLOB,
+    "OPTIONA"    CLOB,
+    "OPTIONB"    CLOB,
+    "OPTIONC"    CLOB,
+    "OPTIOND"    CLOB,
+    "ANS"        CLOB,
+    constraint  "ANDROIDQUIZ_PK" primary key ("QNO") ENABLE
+)
+
+//* INSERT Quiz  for Android *//
+
+//1
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(1,
+'What is the life cycle of services in android?',
+'onCreate()->onStartCommand()->onDestory()',
+'onRecieve()',
+'final()',
+'Service life cycle is same as activity life cycle.',
+'onCreate()->onStartCommand()->onDestory()'
+)
+//2
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(2,
+'On which thread broadcast receivers will work in android?',
+'Worker Thread',
+'Main Thread',
+'Activity Thread',
+'Nonee of the above',
+'Main Thread'
+)
+//3
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(3,
+'What is the use of content provider in android?',
+ 'To send the data from an application to another application',
+
+'To store the data in a database',
+
+'To share the data between applications',
+'None of the above',
+'To share the data between applications'
+)
+//4
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(4,
+'What is the application class in android?',
+ 'class that can create only an object',
+'Anonymous class',
+'Java class',
+'Base class for all classes',
+'Base class for all classes'
+)
+
+//5
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(5,
+'What are the debugging techniques available in android?',
+'DDMS',
+'Breaking point',
+'Memory profiling',
+'None of the above.',
+'None of the above.'
+)
+//6
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(6,
+'What is JSON in android?',
+'Java Script Object Native',
+'Java Script Oriented Notation',
+'Java Script Object Notation',
+'None of the Above',
+'Java Script Object Notation'
+)
+//7
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(7,
+'What are the JSON elements in android?',
+'integer, boolean',
+'boolean',
+'null',
+'Number, string, boolean, null, array, and object',
+'Number, string, boolean, null, array, and object'
+)
+//8
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(8,
+'What is transient data in android?',
+'Permanent data',
+'secure data',
+'Temporary data',
+'Logical data',
+'Logical data'
+)
+//9
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(9,
+'What is anchor view?',
+ 'Same as list view',
+'provides the information on respective relative positions',
+'Same as relative layout',
+'None of the above',
+'provides the information on respective relative positions'
+)
+//10
+INSERT INTO ANDROIDQUIZ (QNO,QUES,OPTIONA,OPTIONB,OPTIONC,OPTIOND,ANS)
+VALUES(10,
+'Layouts in android?',
+ 'Frame Layout',
+'Linear Layout',
+'Relative Layout',
+ 'All of the above',
+ 'All of the above'
+)
+
+
+
+//* QUERY FOR STUDENT TABLE *//
+
+CREATE TABLE  "STUDENTQUIZ" 
+   (	"REGS_ID" VARCHAR2(20), 
+	"NAME" VARCHAR2(20), 
+	"FNAME" VARCHAR2(20), 
+	"EMAIL" VARCHAR2(20), 
+	"UNIVERSITY" VARCHAR2(20), 
+	"DEPT" VARCHAR2(20), 
+	"ROLLNO" VARCHAR2(20), 
+	"COURSE" VARCHAR2(20), 
+	"RIGHT" NUMBER(20,0), 
+	"WRONG" NUMBER(20,0), 
+	"SCORE" NUMBER(20,0), 
+	"TESTCOMPLETED" NUMBER(5,0) DEFAULT 0, 
+	 CONSTRAINT "STUDENTQUIZ_PK" PRIMARY KEY ("REGS_ID") ENABLE
+   ) ;
+
+//*STUDENT id SEQUENCER*//
+
+  ////FOR ANDROID
+Create sequence STUDENTANDROID_sequence
+start with 1
+increment by 1
+minvalue 1
+maxvalue 10000;
+   ////FOR JAVA
+Create sequence STUDENTJAVA_sequence
+start with 1
+increment by 1
+minvalue 1
+maxvalue 10000;
+////insert query
+INSERT INTO STUDENTQUIZ(REGS_ID,NAME,FNAME,EMAIL,UNIVERSITY,DEPT,ROLLNO,COURSE)VALUES(CONCAT('Java',STUDENTQUIZ_SEQUENCE.NEXTVAL),'ABC','XYZ','ABCXYZ@gmail.com','muet','sw','f16sw','java')
+/////update query
+UPDATE STUDENTQUIZ SET 
+RIGHT=6,
+wrong=4,
+score=60
+ WHERE REGS_ID = 'Java3' 
