@@ -1,0 +1,16 @@
+CREATE TABLE  "FEEMANAGEMENT" 
+   (	"NAME" VARCHAR2(20), 
+	"FNAME" VARCHAR2(20), 
+	"DOA" VARCHAR2(30), 
+	"LAST_PAID" NUMBER(30,0), 
+	"MONTHLY" NUMBER(30,0), 
+	"DUES" NUMBER(30,0), 
+	"COURSE" VARCHAR2(50), 
+	"ROLL_NO" VARCHAR2(50)
+   ) ;
+/////////sequence
+Create sequence STUDENT_sequence
+start with 1
+increment by 1
+minvalue 1
+maxvalue 10000;
